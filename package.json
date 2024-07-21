@@ -1,0 +1,37 @@
+{
+  "name": "ride-ease",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "explorer http://localhost:3000; next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "prettier . --write && next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.1.4",
+    "@mapbox/search-js-react": "^1.0.0-beta.21",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.5.0",
+    "mapbox-gl": "^3.4.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-map-gl": "^7.1.7",
+    "stripe": "^15.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/mapbox": "^1.6.45",
+    "@types/mapbox-gl": "^3.1.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.1",
+    "prettier-plugin-tailwindcss": "^0.6.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
+  }
+}
